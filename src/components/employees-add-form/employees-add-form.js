@@ -45,7 +45,7 @@ class EmployeesAddForm extends Component {
                         name="name"
                         value={name}
                         onChange={this.onValueChange}
-                        minlength="3" />
+                        minLength="3" />
                     <input type="number"
                         className="form-control new-post-label"
                         placeholder="Salary $?" 
